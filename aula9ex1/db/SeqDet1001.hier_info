@@ -1,0 +1,15 @@
+|SeqDetFSM
+clk => s_currentState~1.DATAIN
+xin => Selector0.IN3
+xin => s_nextState.sec.DATAB
+xin => output.DATAB
+xin => Selector0.IN1
+xin => s_nextState.tree.DATAB
+xin => s_nextState.four.DATAB
+reset => s_currentState.OUTPUTSELECT
+reset => s_currentState.OUTPUTSELECT
+reset => s_currentState.OUTPUTSELECT
+reset => s_currentState.OUTPUTSELECT
+xout <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,9 @@
+
+State Machine - |DrinksMachine|ControlUnit:inst2|s_currentState
+Name s_currentState.SUMF s_currentState.SUM4 s_currentState.SUM3 s_currentState.SUM2 s_currentState.SUM1 s_currentState.SUMI 
+s_currentState.SUMI 0 0 0 0 0 0 
+s_currentState.SUM1 0 0 0 0 1 1 
+s_currentState.SUM2 0 0 0 1 0 1 
+s_currentState.SUM3 0 0 1 0 0 1 
+s_currentState.SUM4 0 1 0 0 0 1 
+s_currentState.SUMF 1 0 0 0 0 1 

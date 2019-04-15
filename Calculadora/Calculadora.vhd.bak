@@ -1,0 +1,48 @@
+library ieee;
+use     ieee.std_logic_1164.all;
+use     ieee.numeric_std.all;
+
+
+entity Calculadora is 
+
+	port(clk : in std_logic);
+		  ps2_clk : inout std_logic;
+		  ps2_dat : inout std_logic;
+		  reset : in std_logic;
+		  
+		  
+end Calculadora;
+
+architecture Beav of Calculadora is 
+	signal keyboard_detected : std_logic;
+	signal Key_code : std_logic_vector (7 downto 0);
+	signal new_key_code : std_logic;
+	signal mouse_detected : std_logic;
+	signal mouse_delta_x : std_logic;
+	signal mouse_delta_y : std_logic;
+	signal mouse_buttons : std_logic;
+	signal valid_mouse_data : std_logic;
+	
+	
+	begin
+			 ps2 : entity work.ps2_controller(v1)
+               generic map(clock_frequency => clock_frequency)
+               port map(clock => clock,
+								reset => reset,
+                        ps2_clk => ps2_clk,
+								ps2_dat => ps2_dat,
+                        keyboard_detected => keyboard_detected,
+								keyboard_leds => "010";
+                        key_code => key_code,
+								valid_key_code => new_key_code,
+                        mouse_detected => mouse_detected,
+                        mouse_delta_x => delta_x,
+								mouse_delta_y => delta_y,
+								mouse_buttons => mouse_buttons,
+								valid_mouse_data => mouse_movement);
+ 
+
+
+
+
+end Beav;

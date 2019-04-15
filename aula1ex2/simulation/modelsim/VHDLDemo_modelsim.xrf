@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Staples/Desktop/ECT/lsd/aula1ex2/And2Gate.vhd
+source_file = 1, C:/Users/Staples/Desktop/ECT/lsd/aula1ex2/And2Gate.vwf
+source_file = 1, C:/Users/Staples/Desktop/ECT/lsd/aula1ex2/GateDemo.vhd
+source_file = 1, C:/Users/Staples/Desktop/ECT/lsd/aula1ex2/Nand2Gate.vhd
+source_file = 1, C:/Users/Staples/Desktop/ECT/lsd/aula1ex2/NotGate.vhd
+source_file = 1, C:/Users/Staples/Desktop/ECT/lsd/aula1ex2/Nand2Gate2.vhd
+source_file = 1, c:/altera_lite/15.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera_lite/15.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera_lite/15.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera_lite/15.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/Staples/Desktop/ECT/lsd/aula1ex2/db/VHDLDemo.cbx.xml
+design_name = GateDemo
+instance = comp, \LEDR[0]~output\, LEDR[0]~output, GateDemo, 1
+instance = comp, \SW[1]~input\, SW[1]~input, GateDemo, 1
+instance = comp, \SW[0]~input\, SW[0]~input, GateDemo, 1
+instance = comp, \systemCore|and_gate|out1\, systemCore|and_gate|out1, GateDemo, 1

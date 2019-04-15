@@ -1,0 +1,20 @@
+
+
+
+entity Bin2BCD is
+	port(input : in std_logic_vector(3 downto 0);
+			output1 : out std_logic_vector(3 downto 0);
+			output2 : out std_logic_vector(3 downto 0));
+
+end Bin2BCD;
+
+architecture beav of Bin2BCD is 
+
+begin
+	
+	output1 <= std_logic_vector(unsigned(input) rem 10);
+	
+	output2 <= std_logic_vector(unsigned(input) /10);
+
+
+end beav;

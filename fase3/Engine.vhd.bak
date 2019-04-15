@@ -1,0 +1,24 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Engine is
+	port( inputClk : in std_logic;
+			count 	: in integer;
+			output	: out std_logic_vector(2 downto 0));
+end Engine;		
+architecture Behavioral of Engine is		
+		if(count > 0)then
+			output(0) <= inputClk;		
+			if(count = 1) then
+				output(1) <= '1';
+			elsif(s_count>8)then
+				output(2)<='1';
+			else
+				output(1)<='0';
+				output(2)<='0';
+			end if;
+		else
+			output(0) <= '0';
+		end if;
+		
+end Behavioral;

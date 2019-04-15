@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Staples/Desktop/ECT/lsd/aula6ex1/simulation/qsim
+vShiftRegister4
+Z1 !s110 1490363691
+!i10b 1
+!s100 CUPIMaU=BE`m5z_Mz]:H01
+IiLTX]WgKiO[???d^0W4[]3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1490363686
+8ShiftRegisterDemo.vo
+FShiftRegisterDemo.vo
+L0 32
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+!s108 1490363690.000000
+!s107 ShiftRegisterDemo.vo|
+!s90 -work|work|ShiftRegisterDemo.vo|
+!i113 1
+Z4 o-work work
+n@shift@register4
+vShiftRegister4_vlg_vec_tst
+R1
+!i10b 1
+!s100 B3nA9>g3VjoLGe^:_c]cd1
+I`A_gDmZ0V76XWI?Eeh06;0
+R2
+R0
+w1490363664
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+!s108 1490363691.000000
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R4
+n@shift@register4_vlg_vec_tst

@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Staples/Desktop/ECT/lsd/aula1ex2/simulation/qsim
+vAnd2Gate
+!s110 1487339400
+!i10b 1
+!s100 eKg4Z;djhZngz<C_QZZmo2
+I0W7hL2Q@<Po9<aEU<>5b>2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1487339398
+8VHDLDemo.vo
+FVHDLDemo.vo
+L0 32
+Z2 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z3 !s108 1487339400.000000
+!s107 VHDLDemo.vo|
+!s90 -work|work|VHDLDemo.vo|
+!i113 1
+Z4 o-work work
+n@and2@gate
+vAnd2Gate_vlg_vec_tst
+!s110 1487339401
+!i10b 1
+!s100 8XH67j31[Vin4AW>mZHYk1
+IH^fElgQkA:U?I<^850K;B2
+R1
+R0
+w1487339393
+8And2Gate.vwf.vt
+FAnd2Gate.vwf.vt
+L0 30
+R2
+r1
+!s85 0
+31
+R3
+!s107 And2Gate.vwf.vt|
+!s90 -work|work|And2Gate.vwf.vt|
+!i113 1
+R4
+n@and2@gate_vlg_vec_tst

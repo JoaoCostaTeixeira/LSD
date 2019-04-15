@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Staples/Desktop/ECT/lsd/aula1ex2/And2Gate.vhd
+source_file = 1, C:/Users/Staples/Desktop/ECT/lsd/aula1ex2/And2Gate.vwf
+source_file = 1, c:/altera_lite/15.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera_lite/15.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera_lite/15.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera_lite/15.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/Staples/Desktop/ECT/lsd/aula1ex2/db/VHDLDemo.cbx.xml
+design_name = And2Gate
+instance = comp, \out1~output , out1~output, And2Gate, 1
+instance = comp, \in1~input , in1~input, And2Gate, 1
+instance = comp, \in2~input , in2~input, And2Gate, 1
+instance = comp, \out1~0 , out1~0, And2Gate, 1

@@ -1,0 +1,7 @@
+
+State Machine - |SeqDetFSM|s_currentState
+Name s_currentState.four s_currentState.tree s_currentState.sec s_currentState.First 
+s_currentState.First 0 0 0 0 
+s_currentState.sec 0 0 1 1 
+s_currentState.tree 0 1 0 1 
+s_currentState.four 1 0 0 1 
